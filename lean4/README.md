@@ -5,8 +5,5 @@ The Lean 4 version of miniF2F is based on ported Lean 3 files from commit `5271d
 ### Non-compiling theorems
 Theorems that currently do not compile with mathlib 4 (revision `c356970`) are commented out. The reason for not compiling is included in a comment (e.g. `-- Error: Real.logb`).
 
-### Theorem names
-For some theorems, the theorem name in the Lean 3 version of miniF2F differs from name in the `informal` folder of miniF2F (for example, `induction_divisibility_3div2tooddn1` vs. `induction_divisibility_3div2tooddnp1`). We changed the names of these theorems to match the names in the `informal` folder of miniF2F. We use informal statements and proofs from this folder.
-
 ### Header
 The json for each theorem contains a `header` field. The header field contains the minimal set of `import` statements and `open` statements needed to compile all of the theorem statements in the validation and test sets. 
