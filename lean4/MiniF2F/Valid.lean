@@ -1143,3 +1143,4 @@ theorem mathd_algebra_51 (a b : ℝ) (h₀ : 0 < a ∧ 0 < b) (h₁ : a + b = 35
 theorem mathd_algebra_10 : abs ((120 : ℝ) / 100 * 30 - 130 / 100 * 20) = 10 := by norm_num
 #align mathd_algebra_10 mathd_algebra_10
 
+

@@ -13,24 +13,9 @@ import Mathlib.Algebra.Order.Floor
 import Mathlib.Algebra.QuadraticDiscriminant
 import Mathlib.Algebra.Ring.Basic
 import Mathlib.Analysis.Asymptotics.AsymptoticEquivalent
---import Mathlib.Analysis.MeanInequalities
 import Mathlib.Analysis.NormedSpace.Basic
 import Mathlib.Analysis.SpecialFunctions.Log.Basic
 import Mathlib.Analysis.SpecialFunctions.Log.Base
-
--- import Mathlib.Analysis.SpecialFunctions.Log.Base
---import Mathlib.Analysis.InnerProductSpace.Basic
---import Mathlib.Analysis.InnerProductSpace.EuclideanDist
---import Mathlib.Analysis.NormedSpace.PiLp
---import Mathlib.Analysis.SpecialFunctions.Exp
-/-
-import Mathlib.Analysis.SpecialFunctions.ExpDeriv
-import Mathlib.Analysis.SpecialFunctions.Log.Base
-import Mathlib.Analysis.SpecialFunctions.Pow
-import Mathlib.Analysis.SpecialFunctions.Sqrt
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Basic
-import Mathlib.Analysis.SpecialFunctions.Trigonometric.Complex
--/
 import Mathlib.Combinatorics.SimpleGraph.Basic
 import Mathlib.Data.Complex.Basic
 import Mathlib.Data.Complex.Exponential
