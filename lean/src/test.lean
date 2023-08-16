@@ -170,7 +170,7 @@ end
 theorem algebra_sqineq_unitcircatbpabsamblt1
   (a b: ℝ)
   (h₀ : a^2 + b^2 = 1) :
-  a * b + ∥a - b∥ ≤ 1 :=
+  a * b + abs(a - b) ≤ 1 :=
 begin
   sorry
 end
@@ -756,7 +756,6 @@ begin
     },
     rw [h₅, nnreal.sqrt_eq_iff_sq_eq],
     rw ← this,
-    ring,
   },
 
   have key₂ : (6 * b * b) = 54,
@@ -2074,7 +2073,7 @@ theorem mathd_algebra_114
 begin
   rw h₀,
   have k₁ : 0 ≤ (4:ℝ), linarith,
-  have k₂ : 0 < 3, linarith,
+  have k₂ : 3 ≠ 0, linarith,
   have k₃ : (64:ℝ) = 4^(3:ℝ), {
     suffices : (64:ℝ) = 4^((3:ℕ):ℝ), {
       rw this,
